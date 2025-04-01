@@ -105,8 +105,8 @@
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="120" id="dbB-Av-62H"/>
                                                                 </constraints>
-                                                                <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <color key="sectionIndexBackgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="sectionIndexColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </tableView>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -122,7 +122,7 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.076582096520000004" green="0.4719027281" blue="0.96571284530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="0fu-mG-UQM" firstAttribute="top" secondItem="RHp-jP-LP1" secondAttribute="top" id="0TP-Q9-9TO"/>
                                                     <constraint firstItem="RiM-g5-VmJ" firstAttribute="top" secondItem="W4h-7q-q2B" secondAttribute="bottom" constant="25" id="12m-is-KcY"/>
@@ -180,7 +180,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ou4-7W-pvo"/>
-                        <color key="backgroundColor" red="0.076582096520000004" green="0.4719027281" blue="0.96571284530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ou4-7W-pvo" firstAttribute="trailing" secondItem="piN-Iw-fe1" secondAttribute="trailing" id="As8-TY-EFc"/>
                             <constraint firstItem="ou4-7W-pvo" firstAttribute="bottom" secondItem="piN-Iw-fe1" secondAttribute="bottom" id="UuE-UO-Ihp"/>
