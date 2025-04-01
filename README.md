@@ -16,6 +16,8 @@ A simple weather application built using **UIKit** and **CoreLocation** that fet
 ## Screenshots
 https://github.com/user-attachments/assets/e29e3bc0-5ef0-45ff-a635-d0d20510ae08
 
+https://github.com/user-attachments/assets/bb33c97a-1f61-4e0d-9f5e-b6bbb5c6ddd2
+
 ## Requirements
 
 - iOS 14.0+
