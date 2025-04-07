@@ -1,4 +1,4 @@
-# WeatherApp 🌦️
+# iOS WeatherApp 🌦️
 
 A simple weather application built using **UIKit** and **CoreLocation** that fetches weather data from the OpenWeatherMap API. The app displays current weather conditions and a 5-day forecast for a chosen location. It also includes dynamic background animations that change based on the weather (e.g., sunny, rainy, cloudy).
 
