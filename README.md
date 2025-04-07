@@ -16,7 +16,7 @@ Instantly pin a city to view its weather.
 
 ## 🗓️ 5-Day Forecast
 
-Displays future temperature and condition icons.
+## Displays future temperature and condition icons.
 
 ## 🎨 Dynamic Backgrounds
 
