@@ -4,123 +4,109 @@ A simple weather application built using **UIKit** and **CoreLocation** that fet
 
 # ✨ Features
 
-## 🌍 Current Weather Details
-
-City name, temperature, humidity, and more.
-
-## 🔄 Search & Add Cities
-
-Search from a predefined list of cities.
-
-Instantly pin a city to view its weather.
-
-## 🗓️ 5-Day Forecast
-
-## Displays future temperature and condition icons.
-
-## 🎨 Dynamic Backgrounds
-
-## ☀️ Sunny: Gradient backgrounds.
-
-## 🌧️ Rainy: Rain animations.
-
-## ☁️ Cloudy: Floating cloud animations.
-
-## 🌡️ Temperature in Celsius
-## 📊 Weather icons for each forecast (sunny, rainy, cloudy).
-
-Auto-converted from API-provided temperature.
-
-## 🗑️ Swipe Actions
-
-Swipe left to Pin any city to the top, and delete too.
+- 🌍 Current Weather Details
+   - City name, temperature, humidity, and more.
+- 🔄 Search & Add Cities
+    - Search from a predefined list of cities.
+    - Instantly pin a city to view its weather.
+- 🗓️ 5-Day Forecast
+    - Displays future temperature and condition icons.
+- 🎨 Dynamic Backgrounds
+- ☀️ Sunny: Gradient backgrounds.
+- 🌧️ Rainy: Rain animations.
+- ☁️ Cloudy: Floating cloud animations.
+- 🌡️ Temperature in Celsius
+- 📊 Weather icons for each forecast (sunny, rainy, cloudy).
+    - Auto-converted from API-provided temperature.
+- 🗑️ Swipe Actions
+   - Swipe left to Pin any city to the top, and delete too.
 
 # 📸 Visual Overview 
 https://github.com/user-attachments/assets/1ef1a7ff-ff4a-4fb5-bd05-843571602ce5
 
+
 # 🚀 Getting Started
-##  ✅ Requirements
-iOS 14.0+
+-  ✅ Requirements
+     - iOS 14.0+
 
-Xcode 12+
+     - Xcode 12+
 
-Swift 5+
+     - Swift 5+
 
-WeatherAPI Key (https://www.openweatherapi.com/)
+- WeatherAPI Key (https://www.openweatherapi.com/)
 
 # 📥 Installation
-## 1. Clone the Repo
+ 1. Clone the Repo
   bash
-  git clone https://github.com/yourusername/WeatherApp.git
-## 2. Open the Project
+  git clone https://github.com/vageesh-singh-iphtech/WeatherApp.git
+ 2. Open the Project
    bash
    Open `WeatherApp.xcodeproj` in Xcode
-## 3. Add Your API Key
-   Go to    https://openweathermap.org/api  and sign up.
+ 3. Add Your API Key
+   Go to    (https://openweathermap.org/api)  and sign up.
 
 # Get your free API key. #
 
    Open AllLocationsVC.swift and replace:
 
-## ▶️ Run the App
+- ▶️ Run the App
 Select your device/simulator in Xcode.
 
 Press Cmd + R or click Run.
 
-## 📱 How to Use the App
-First you get to see your current location Weather.
-And then
-## 🔍 Searching & Adding Cities
-Tap the Add button.
-View a searchable list of predefined cities.
+- 📱 How to Use the App
+     First you get to see your current location Weather.
+- And then
+  - 🔍 Searching & Adding Cities
+  - Tap the Add button.
+    View a searchable list of predefined cities.
+    Tap on any city to fetch and pin its weather data to your main list.
 
-Tap on any city to fetch and pin its weather data to your main list.
-
-## 🌤️ Viewing Weather
-Each cell shows:
-
-## 📍 City name
-
-## 🕒 Local time
-
-## 🌡️ Temperature
-
-## ☁️ Condition
-
-## 🌍 Coordinates
-
-## ⬅️➡️ Swipe Actions
+- 🌤️ Viewing Weather
+   - Each cell shows:
+- 📍 City name
+- 🕒 Local time
+- 🌡️ Temperature
+- ☁️ Condition
+- 🌍 Coordinates  
+- ⬅️➡️ Swipe Actions
 Pin: Move a location to the top.
 
 Delete: Remove it from the list.
 
-## 🧠 Under the Hood
-UIKit for UI layout.
 
-CoreLocation to access user's location (can be expanded).
 
-URLSession for networking.
+# 🧠 Under the Hood
+- UIKit for UI layout.
 
-WeatherAPI for real-time weather data.
+- CoreLocation to access user's location (can be expanded).
+
+- URLSession for networking.
+
+- WeatherAPI for real-time weather data.
 
 Custom TableView & CollectionView Cells for UI presentation.
 
-## 🛠️ Project Structure
-AllLocationsVC.swift → Main screen showing current weather for multiple cities.
 
-AddNewLocation.swift → Bottom sheet view for selecting/searching cities.
+- 🛠️ Project Structure
+   - AllLocationsVC.swift → Main screen showing current weather for multiple cities.
 
-WeatherVC.swift → Detailed view (optional future expansion).
+   - AddNewLocation.swift → Bottom sheet view for selecting/searching cities.
+
+   - WeatherVC.swift → Detailed view (optional future expansion).
 
 # 💡 Future Improvements
-##  ⛅ Full-screen Weather Detail Page.
+ - ⛅ Full-screen Weather Detail Page.
 
-## 📍 Auto-detect user location on launch.
+ - 📍 Auto-detect user location on launch.
 
-## 🔔 Notifications for severe weather alerts.
+ - 🔔 Notifications for severe weather alerts.
 
-## 🧩 More tiles.
+ - 🧩 More tiles.
 
 # 👨‍💻 Author
 You! Feel free to fork and customize this project.
+
 ## Made with ❤️ By Vageesh 
+
+# ------------------------------------------>
