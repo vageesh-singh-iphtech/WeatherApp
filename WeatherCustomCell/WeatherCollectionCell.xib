@@ -27,7 +27,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YX1-za-jjf">
                                         <rect key="frame" x="2" y="87" width="76" height="20.333333333333329"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -38,7 +38,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5K-cl-EP4">
                                         <rect key="frame" x="2" y="9" width="76" height="20.333333333333332"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -55,6 +55,7 @@
                 <outlet property="ccImg" destination="RJl-yi-e8f" id="SgK-iU-acN"/>
                 <outlet property="cclbl1" destination="b5K-cl-EP4" id="MEg-wi-hVS"/>
                 <outlet property="cclbl2" destination="YX1-za-jjf" id="wjM-0U-YNX"/>
+                <outlet property="cellView" destination="htW-Eg-dek" id="Eds-60-Zjj"/>
                 <outlet property="contentView" destination="Uah-H0-iJi" id="P4u-Dw-KUz"/>
             </connections>
             <point key="canvasLocation" x="59.541984732824424" y="32.394366197183103"/>

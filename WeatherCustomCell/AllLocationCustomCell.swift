@@ -24,9 +24,20 @@ class AllLocationCustomCell: UITableViewCell {
     @IBOutlet weak var lnlDayData: UILabel!
     
     
+    @IBOutlet weak var cellimgaeBG: UIImageView!
+    
+    @IBOutlet weak var allLocationView: UIView!
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        allLocationView.layer.cornerRadius=15
+        
+        cellimgaeBG.layer.cornerRadius = 15
+        
         
         
     }

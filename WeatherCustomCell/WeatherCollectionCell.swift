@@ -7,7 +7,7 @@
 
 import UIKit
 
-class WeatherCollectionCell: UICollectionViewCell {
+class WeatherCollectionCell: UICollectionViewCell, UICollectionViewDelegate {
     
     @IBOutlet weak var cclbl1: UILabel!
     
@@ -18,9 +18,15 @@ class WeatherCollectionCell: UICollectionViewCell {
     @IBOutlet weak var cclbl2: UILabel!
     
     
+    @IBOutlet weak var cellView: UIView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        cellView.layer.cornerRadius = 15
+     //   cellView.clipsToBounds = false
+        
         
     }
 
